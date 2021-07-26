@@ -12,15 +12,13 @@ body {
 h1 {
     color: #2f80ed;
     text-align: center;
-  }
+}
 
-
-  
 .contact {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    
+    display: flex;  
+    margin-top: 10px;
   }
 .cv{
     position: center;
@@ -61,14 +59,30 @@ li{
     background-color: #808080;
 } 
 .footer{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    height: 60px;
-    width: 100%;
 
-
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
 }
-.description{
-    margin-bottom: 100%;
+
+.description{  
+    width: 70%;
+    margin: auto;
+}
+.contact_type{
+    margin-right: 10px;
+    
+}
+.contact_value{
+    
+    font-weight: bold;
+}
+.contacts{
+    text-decoration: #f44336;
+    width: 20%;
+    margin: auto;
+}
+.example{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
